@@ -1,0 +1,197 @@
+/***********************************
+Colour Scheme
+Yellow - #ffff00 - rgb(255, 255, 0) - hsl(60, 100%, 50%)
+Red - #ff0000 - rgb(255, 0, 0) - hsl(0, 100%, 50%)
+Black - #000000 - rgb(0, 0, 0) - hsl(0, 0%, 0%)
+*************************************/
+
+/******************GLOBAL STYLES**********************/
+
+body {
+    font-family: Tahoma, Arial, Sans-serif;
+    text-align: center;
+    margin-left: auto;
+    Margin-right: auto;
+    padding: none;
+    font-size: 18px;
+}
+
+h1 {
+    /*font-family: 'Berkshire Swash', cursive; */
+    color: orangered;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    /*font-family: 'Berkshire Swash', cursive; */
+    color: orange;
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    font-variant: small-caps;
+    font-family: "Mali";
+    text-decoration: none;
+    color: red;
+}
+
+
+
+/******************HEADER & NAVIGATION STYLES**********************/
+header {
+    background-color: white;
+    text-align: center;
+    padding: 0px;
+    Margin: none;
+}
+
+.logo {
+    width: 480px;
+    height: 180px;
+    display: center;
+}
+
+
+nav {   
+    margin: auto;
+    display: center;
+    height: 26px;
+    width: auto;
+    padding: none;
+    display: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/*link psuedo selectors must come in a particular order. hover must come after link and visited*/
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active {
+    color: blue;
+}
+
+.active:hover {
+    color: purple;
+    background-color: orange;
+}
+
+
+
+
+
+/********MEDIA RESPONSIVENESS************/
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: grey;
+    }
+
+    nav ul li {
+        display: inline-block;
+        width: 120px;
+    }
+
+/********HOME PAGE************/
+
+.hours {
+    padding: 10px;
+    margin: 10px;
+}
+
+/**********MENU PAGE*******/
+
+.hyperlinks ul {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.hyperlinks ul li {
+    padding: none;
+    margin: none;
+    height: 40px;
+}
+
+
+.hyperlinks ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    margin: none;
+    padding: none;
+}
+
+.menu ul {
+    list-style-type: none;
+    background-color: grey;
+    text-align: center;
+}
+
+.menu ul li {
+    background-color: rgb(255, 255, 179);
+    text-align: left;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+}
+
+.menu ul li:hover {
+    background-color:rgb(255, 255, 102);
+}
+
+.menuSection {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/************CONTACT PAGE************/
+.map {
+    text-align: center;
+    display: block;
+}
+
+.address {
+    display: block;
+}
+
+/************FOOTER STYLES************/
+#copyright {
+    display: block;
+}
